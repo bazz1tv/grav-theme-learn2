@@ -174,7 +174,7 @@ jQuery(document).ready(function() {
         var code = $(this),
             text = code.text();
 
-        if (text.length > 5) {
+        if (text.length > 35) {
             if (!clipInit) {
                 var text, clip = new Clipboard('.copy-to-clipboard', {
                     text: function(trigger) {
